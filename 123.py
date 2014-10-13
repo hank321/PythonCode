@@ -1,0 +1,11 @@
+x = int(input(" 請輸入一個整數: "))
+
+if x < 0:
+    x=0
+	print("負數轉變成零")
+elif x == 0:
+    print("零")
+elif x == 1:
+    print("single")
+else:
+    print("more")
